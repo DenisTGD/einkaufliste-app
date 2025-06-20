@@ -30,3 +30,30 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# --- Docker ---
+*.pid
+*.sock
+docker-compose.override.yml
+
+# --- Node / Ionic ---
+node_modules/
+platforms/
+plugins/
+www/
+dist/
+build/
+.sass-cache/
+.tmp/
+.env.local
+.env.production
+.env.development
+
+# --- Editor / IDE (ergänzen, falls du sie nutzt) ---
+.idea/
+.vscode/
+*.iml
+
+# --- System-Dateien ---
+.DS_Store
+Thumbs.db
